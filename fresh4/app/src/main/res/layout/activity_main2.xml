@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vishnu.fresh.Main2Activity">
+
+
+
+    <TextView
+        android:text="LATTITUDE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="113dp"
+        android:id="@+id/lat1" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned|numberDecimal"
+        android:ems="2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/pdeg1"
+        android:hint="Deg" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned|numberDecimal"
+        android:ems="2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/pmin1"
+        android:hint="Min" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned|numberDecimal"
+        android:ems="2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/psec1"
+        android:hint="Sec" />
+
+
+    <TextView
+        android:text="LONGITUDE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="150dp"
+        android:id="@+id/lon1" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned|numberDecimal"
+        android:ems="2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="139dp"
+        android:id="@+id/pdeg2"
+        android:hint="Deg" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned|numberDecimal"
+        android:ems="2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="139dp"
+        android:id="@+id/pmin2"
+        android:hint="Min" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned|numberDecimal"
+        android:ems="2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="139dp"
+        android:id="@+id/psec2"
+        android:hint="Sec" />
+
+    <Button
+        android:text="CALCULATE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/calculate"
+        style="@android:style/Widget.Button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="79dp" />
+
+    <TextView
+        android:text="LATTITUDE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="243dp"
+        android:id="@+id/lat2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned|numberDecimal"
+        android:ems="2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="230dp"
+        android:id="@+id/tdeg1"
+        android:hint="Deg" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned|numberDecimal"
+        android:ems="2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="230dp"
+        android:id="@+id/tmin1"
+        android:hint="Min" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned|numberDecimal"
+        android:ems="2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="230dp"
+        android:id="@+id/tsec1"
+        android:hint="Sec" />
+
+
+    <TextView
+        android:text="LONGITUDE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="273dp"
+        android:id="@+id/lon2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned|numberDecimal"
+        android:ems="2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="260dp"
+        android:id="@+id/tdeg2"
+        android:hint="Deg" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned|numberDecimal"
+        android:ems="2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="260dp"
+        android:id="@+id/tmin2"
+        android:hint="Min" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned|numberDecimal"
+        android:ems="2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="260dp"
+        android:id="@+id/tsec2"
+        android:hint="Sec" />
+
+    <TextView
+        android:text="enter the present coordinates"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/lat1"
+        android:layout_marginBottom="38dp"
+        android:id="@+id/textView1" />
+
+    <TextView
+        android:text='enter the target coordinates'
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pdeg2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="26dp"
+        android:id="@+id/textView2"
+        android:layout_alignRight="@+id/tsec1"
+        android:layout_alignEnd="@+id/tsec1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_alignRight="@+id/pmin1"
+        android:layout_alignEnd="@+id/pmin1"
+        android:layout_marginBottom="17dp"
+        android:id="@+id/textView3"
+        android:layout_toEndOf="@+id/lat1"
+        android:layout_alignLeft="@+id/pdeg1"
+        android:layout_alignStart="@+id/pdeg1" />
+
+    <TextView
+        android:text="The distance is"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView3"
+        android:id="@+id/textView4" />
+
+    <TextView
+        android:text="KM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignLeft="@+id/psec1"
+        android:layout_alignStart="@+id/psec1" />
+
+
+</RelativeLayout>
